@@ -1,5 +1,3 @@
-const url = "https://api.spacexdata.com/v2/launchpads";
-
 // Initialize the page with a default plot.
 function charts(selectedPatientID) {
     d3.json("samples.json").then((data) => {
